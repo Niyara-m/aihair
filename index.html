@@ -123,9 +123,14 @@
 										Ражая
 									</div>
 								</label>
-								<div class="flex items-center ">
-									<input type="color" class="h-8 w-8 md:h-12 md:w-12 block bg-white cursor-pointer rounded-full disabled:opacity-50 disabled:pointer-events-none" id="hs-color-input" value="#2563eb" title="Choose your color">
+								<!-- <div class="flex items-center ">
+									<input type="color" class="appearance-none h-8 w-8 md:h-12 md:w-12 block bg-white cursor-pointer rounded-full disabled:opacity-50 disabled:pointer-events-none" id="hs-color-input" value="#2563eb" title="Choose your color">
 									<label for="hs-color-input" class="block text-sm md:text-xl font-medium ml-2">Выбери свой цвет</label>
+								</div> -->
+								<div class="flex items-center gap-2">
+									<div id="color-circle"  class="h-8 w-8 md:h-10 md:w-10 rounded-full border border-gray-300 cursor-pointer" style="background-color: #2563eb;"></div>
+									<input type="color" id="real-color" value="#2563eb" class="hidden"/>
+									<label for="real-color" class="text-xl font-medium">Выбери свой цвет</label>
 								</div>
 							</div>
 						</div>
@@ -140,6 +145,20 @@
 			</div>
 		</div>
 	</div>
+
+
+<script>
+	const colorCircle = document.getElementById("color-circle");
+	const realColor = document.getElementById("real-color");
+
+	colorCircle.addEventListener("click", () => {
+		realColor.click();
+	});
+
+	realColor.addEventListener("input", () => {
+		colorCircle.style.backgroundColor = realColor.value;
+	});
+</script>
 
 </body>
 </html>
