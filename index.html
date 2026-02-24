@@ -12,7 +12,7 @@
 		<div class=" w-full bg-white rounded-3xl shadow-xl overflow-hidden">
 			<div class="p-6 text-center bg-black text-white">
 				<!-- <h1 class="md:text-3xl text-2xl font-bold tracking-tight">AI LUXE SALON</h1> -->
-				<div class="flex items-center justify-center pb-2"><img class="h-8" src="ailuxe.png" alt=""></div>
+				<div class="flex items-center justify-center pb-2"><img class="h-8" src="ailuxe.png" alt="logo"></div>
 				<p class="md:text-xl text-xs text-gray-400 uppercase tracking-widest mt-1">Виртуальный стилист по волосам</p>
 			</div>
 			
@@ -24,116 +24,178 @@
 
 					<div class="md:w-1/2 flex flex-col justify-between">
 						<div>
-							<p class="font-bold pb-2 md:pb-6 md:text-3xl">Прическа</p>
-							<div class="flex flex-wrap gap-2">
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Длинные
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Каре
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Хвост
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Пучок
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Волнистые
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Прямые
-									</div>
-								</label>
-								
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Кудрявые
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Прямая челка
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Челка на правый бок
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="checkbox" name="pay" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Челка на левый бок
-									</div>
-								</label>
-							</div>
+							<div class="pb-10">
+								<p class="md:text-3xl font-bold py-2 md:pb-6">Пол</p>
+								<div class="flex flex-wrap gap-2">
+									<label class="cursor-pointer">
+										<input type="radio" name="gender" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-2xl px-3 md:px-8  text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Женщина
+											<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12" viewBox="0 0 2112 2112" ><path fill="#f03b6d" fill-rule="evenodd" d="M726 772a244 244 0 1 1 365 323 244 244 0 0 1-365-323m431 452 141 124-86 98c-28 32-35 72-3 100s67 14 96-18l86-98 45 40c52 46 92 47 113 23s15-64-36-109l-46-40 93-105c28-32 38-69 6-97s-71-17-99 15l-92 105-142-126a383 383 0 1 0-76 88"/></svg>
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="gender" class="peer hidden" />
 
-							
-							<p class="md:text-3xl font-bold py-2 md:pt-10 md:pb-6">Цвет волос</p>
-
-							<div class="flex flex-wrap gap-2">
-								<label class="cursor-pointer">
-									<input type="radio" name="colorHair" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Русая
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="radio" name="colorHair" class="peer hidden" />
-
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Пепельная блондинка
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="radio" name="colorHair" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Брюнетка
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="radio" name="colorHair" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Шатенка
-									</div>
-								</label>
-								<label class="cursor-pointer">
-									<input type="radio" name="colorHair" class="peer hidden" />
-									<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
-										Ражая
-									</div>
-								</label>
-								<!-- <div class="flex items-center ">
-									<input type="color" class="appearance-none h-8 w-8 md:h-12 md:w-12 block bg-white cursor-pointer rounded-full disabled:opacity-50 disabled:pointer-events-none" id="hs-color-input" value="#2563eb" title="Choose your color">
-									<label for="hs-color-input" class="block text-sm md:text-xl font-medium ml-2">Выбери свой цвет</label>
-								</div> -->
-								<div class="flex items-center gap-2">
-									<div id="color-circle"  class="h-8 w-8 md:h-10 md:w-10 rounded-full border border-gray-300 cursor-pointer" style="background-color: #2563eb;"></div>
-									<input type="color" id="real-color" value="#2563eb" class="hidden"/>
-									<label for="real-color" class="text-xl font-medium">Выбери свой цвет</label>
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-2xl px-3 md:px-8 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white peer-checked:fill-white">
+											Мужчина
+											<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-[#3b6df0] " viewBox="0 0 2112 2112" width="2112" height="2112"><path fill="transparent" d="M-211-211h2534v2534H-211z"/><path fill="currentColor" fill-rule="evenodd" d="M904 1450a250 250 0 1 1 114-486 250 250 0 0 1-114 486m639-579-16-267q-1-13-7-23 3-7 2-16c-2-31-29-54-60-52l-267 16a57 57 0 0 0 7 113l137-9-176 239a390 390 0 0 0-584 246 392 392 0 1 0 674-171l168-228 10 159a56 56 0 1 0 112-7"/></svg>
+										</div>
+									</label>
 								</div>
 							</div>
+							<div class="pb-10">
+								<p class="md:text-3xl font-bold py-2 md:pb-6">Стрижка</p>
+								<div class="flex flex-wrap gap-2">
+									<label class="cursor-pointer">
+										<input type="radio" name="haircut" class="peer hidden" />
+										<div class="flex flex-col items-center justify-center gap-2 border-1 border-gray-300 rounded-2xl px-3 md:px-6 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											<img src="shorthair.png" alt="short hair" class="w-36 h-36">
+											<span class="text-center">Короткая длина</span>
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="haircut" class="peer hidden" />
+										<div class="flex flex-col items-center justify-center gap-2 border-1 border-gray-300 rounded-2xl px-3 md:px-6 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											<img src="averagehair3.png" alt="short hair" class="w-36 h-36">
+											<span class="text-center">Средняя длина</span>
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="haircut" class="peer hidden" />
+										<div class="flex flex-col justify-center gap-2 border-1 border-gray-300 rounded-2xl px-3 md:px-6 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											<img src="averagehair3.png" alt="short hair" class="w-36 h-36">
+											<span class="text-center">Длинные волосы</span>
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="haircut" class="peer hidden" />
+										<div class="flex flex-col justify-center gap-2 border-1 border-gray-300 rounded-2xl px-3 md:px-6 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											<img src="shorthair.png" alt="short hair" class="w-36 h-36">
+											<span class="text-center">Текстурные</span>
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="haircut" class="peer hidden" />
+										<div class="flex flex-col justify-center gap-2 border-1 border-gray-300 rounded-2xl px-3 md:px-6 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											<img src="shorthair.png" alt="short hair" class="w-36 h-36">
+											<span class="text-center">Сохранить длину</span>
+										</div>
+									</label>
+								</div>
+							</div>
+							<!--
+							<div>
+								<p class="font-bold pb-2 md:pb-6 md:text-3xl">Прическа</p>
+								<div class="flex flex-wrap gap-2">
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Длинные
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Каре
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Хвост
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Пучок
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Волнистые
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Прямые
+										</div>
+									</label>
+									
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Кудрявые
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Прямая челка
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Челка на правый бок
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="checkbox" name="pay" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Челка на левый бок
+										</div>
+									</label>
+								</div>
+							</div>
+							-->
+							<!--
+							<div>
+								<p class="md:text-3xl font-bold py-2 md:pt-10 md:pb-6">Цвет волос</p>
+								<div class="flex flex-wrap gap-2">
+									<label class="cursor-pointer">
+										<input type="radio" name="colorHair" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Русая
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="colorHair" class="peer hidden" />
+
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Пепельная блондинка
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="colorHair" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Брюнетка
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="colorHair" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Шатенка
+										</div>
+									</label>
+									<label class="cursor-pointer">
+										<input type="radio" name="colorHair" class="peer hidden" />
+										<div class="flex items-center justify-center gap-2 border-1 border-gray-300 rounded-full px-3 md:px-8 py-1 md:py-2 text-sm md:text-xl transition-all duration-300 peer-checked:bg-black peer-checked:text-white">
+											Ражая
+										</div>
+									</label>
+								
+									<div class="flex items-center gap-2">
+										<div id="color-circle"  class="h-8 w-8 md:h-10 md:w-10 rounded-full border border-gray-300 cursor-pointer" style="background-color: #2563eb;"></div>
+										<input type="color" id="real-color" value="#2563eb" class="hidden"/>
+										<label for="real-color" class="text-xl font-medium">Выбери свой цвет</label>
+									</div>
+								</div>
+							</div>
+							-->
 						</div>
 						<div class="pt-2 md:pt-6"></div>
 							<button class="p-button p-component w-full p-4 rounded-2xl font-bold bg-black text-white" data-p="" type="button" aria-label="Analyze &amp; Style Me" data-pc-name="button" data-p-disabled="false" pc25="" data-pc-section="root">
